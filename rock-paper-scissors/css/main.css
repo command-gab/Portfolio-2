@@ -1,0 +1,86 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+*{
+    box-sizing: border-box;
+}
+  
+.clear {
+   clear: both;
+}
+  
+/******************************************
+/* LAYOUT
+/*******************************************/
+  
+body{
+    background-color:rgb(99, 169, 211);
+  
+}
+  
+img{
+    margin-top: 1%;
+    margin-left: 43%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+    color:rgb(245, 168, 192);
+}
+  
+p{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-size: 20px;
+    color:white;
+}
+  
+strong{
+    color:rgb(245, 168, 192);
+}
+
+h2{
+    text-align: center;
+    color: rgb(242, 155, 75);
+    font-size: 35px;
+}
+
+tr{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#humanScore, #computerScore, th{
+    padding-left: 745%;
+    text-align: center;
+}
+
+button{
+    margin-left: 17%;
+    font-size: 18px;
+    background: rgb(71, 195, 159);
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid black;
+}
+
+#status{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 1%;
+}
+

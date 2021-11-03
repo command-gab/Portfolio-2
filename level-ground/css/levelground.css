@@ -1,0 +1,396 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+  }
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header{
+    background: rgb(102, 118, 138);
+    height: 500px;
+    margin: -1% -1% 0 -1%; 
+}
+
+li{
+    float: left;
+    margin-left: -1%;
+    margin-top: 2%;
+    list-style: none;
+    width: 8%;
+}
+
+li a{
+    text-decoration: none;    
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.logo{
+    clear: both;
+    margin-left: 37%;
+    margin-top: 1%;
+}
+
+button{
+    margin-right: 3%;
+    margin-top: 1%;
+    height: 30px;
+    width: 5%;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(102, 118, 138);
+    font-size: 12px;
+    font-weight: 700;
+    float: right;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(241, 241, 241);
+    margin-top: 5%;
+}
+
+header p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(241, 241, 241);
+    height: 100px;
+    width: 800px;
+    margin-top: 1%;
+    margin-left: 22%;
+}
+
+.play{
+    margin-left: 42%;
+    margin-top: -2%;
+}
+
+
+.why{
+    background: white;
+    height: 400px;
+    margin: -1% -1% 0 -1%; 
+}
+
+.why h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(22, 31, 42);
+    padding-top: 7%;
+}
+
+.why p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color:rgb(22, 31, 42);
+    height: 200px;
+    width: 500px;
+    margin-left: 32.5%;
+    margin-top: -1%;
+
+}
+
+.visit{
+    height: 550px;
+    background: rgb(219, 223, 226);
+}
+
+.box1{
+    margin-top: 6%;
+    margin-left: 25%;
+    float: left;
+}
+
+.visit h3{
+    padding-top: 1%;
+    margin-left: 30%;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(22, 31, 42);
+    clear: both;
+}
+
+.visit p{
+    height: 100px;
+    width: 350px;
+    margin-left: 22%;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(22, 31, 42);
+    float: left;
+}
+
+.button1{
+    float: left;
+    height: 50px;
+    width: 200px;
+    background:rgb(219, 223, 226);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 0%;
+    color:rgb(22, 31, 42);
+    margin-top: 10%;
+    margin-left: -20%;
+
+}
+
+.box2{
+    margin-top: -14%;
+    margin-right: 25%;
+    float: right;
+}
+
+.hire h3{
+    margin-right: 28%;
+    margin-top: -17%;
+    font-size: 15px;
+    font-weight: 700;
+    color:rgb(22, 31, 42);
+    float: right;
+}
+
+.hire p{
+    height: 100px;
+    width: 350px;
+    margin-right: 21%;
+    margin-top: -13%;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(22, 31, 42);
+    float: right;
+}
+
+.button2{
+    float: right;
+    height: 50px;
+    width: 200px;
+    background:rgb(219, 223, 226);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 0%;
+    color:rgb(22, 31, 42);
+    margin-top: -3.5%;
+    margin-right: 26%;
+
+}
+
+.volunteer{
+    background: white;
+    height: 400px;
+    margin: -1% -1% 0 -1%; 
+}
+
+.volunteer h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(22, 31, 42);
+    padding-top: 4%;
+}
+
+.volunteer p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    color:rgb(22, 31, 42);
+    height: 200px;
+    width: 500px;
+    margin-left: 32.5%;
+    margin-top: -1%;
+
+}
+
+.volunteer button{
+        text-align: center;
+        height: 50px;
+        width: 200px;
+        background: white;
+        font-size: 15px;
+        font-weight: 400;
+        border: 1px solid black;
+        border-radius: 0%;
+        color:rgb(22, 31, 42);
+        margin-top: -1%;
+        margin-right: 43%;
+}
+
+footer{
+    height: 300px;
+    background:rgb(22, 31, 42);
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+.social{
+    margin-left: 4%;
+    margin-top: 2%;
+    float: left;
+    color: white;
+    size: 8px;
+    padding-bottom: 2%;
+}
+
+.sitemap h4{
+    margin-left: 4%;
+    clear: both;
+    color: rgb(69, 82, 99);
+}
+
+.sitemap p{
+    color: white;
+    clear: both;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 4%;  
+}
+
+.sitemap > .name{
+    float: right;
+    margin-top: -12%;
+    margin-right: 5%;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    height: 50px;
+    width: 135px;
+}
+
+.address{
+    float: right;
+    margin-right: 4%;
+    margin-top: -8%;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    height: 60px;
+    width: 145px;
+
+}
+
+.ein{
+    border-top: 1px solid white;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+
+.logo2{
+    float: right;
+    margin-top: -2.5%;
+    margin-right: 4%;
+}
+
+/******************************************
+/* ADDITIONAL LAYOUT
+/*******************************************/
+
+@media screen and (max-width: 600px) {
+.visit, footer, button{
+        display: none;
+}
+
+li{
+    width: 20%;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+header p{
+    font-size: 15px;
+    width: 55%;
+    margin-left: 25%;
+}
+
+.play{
+    margin-left: 30%;
+    margin-top: 15%;
+}
+
+.why p{
+    font-size: 15px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.volunteer{
+    background: rgb(69, 82, 99);
+}
+.volunteer h2{
+    font-size: 20px;
+    color: white;
+}
+
+.volunteer p{
+    font-size: 14px;
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+}
+       
+@media (min-width: 601px) and (max-width: 1024px) {
+.visit, .play{
+    display: none;
+}
+
+.why, header{
+    display: inline-block;
+    width: 100%;
+}
+
+
+header p{
+    font-size: 17px;
+    width: 55%;
+    margin-left: 25%;
+}
+
+.why p{
+    font-size: 16px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.volunteer p{
+    font-size: 15px;
+    width: 60%;
+    margin-left: 20%; 
+}
+}
+       
+/* @media (min-width: 1050px) and (max-width: 2560px) {
+header button{
+    display: none;
+}
+} */
